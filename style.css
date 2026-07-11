@@ -469,3 +469,41 @@ form button:hover{
     font-size:4.5rem;
     font-weight:700;
 }
+/* ===== Mobile Responsive ===== */
+
+@media (max-width: 768px) {
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-content{
+        order: 1;
+    }
+
+    .hero-img{
+        order: 2;
+        margin-top: 10px;
+    }
+
+    .hero-img img{
+        width: 260px;
+        height: 260px;
+    }
+
+    .hero-content p{
+        margin: 20px auto;
+    }
+
+    .social-icons{
+        display:flex;
+        justify-content:center;
+    }
+
+    .btn{
+        margin:auto;
+    }
+
+}
