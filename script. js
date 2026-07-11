@@ -38,13 +38,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Contact Form Prevention Submission Demo
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for reaching out, Tasin! This form submission is currently a mockup demo layout.');
-        contactForm.reset();
+
     });
 }
 const words = [
