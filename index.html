@@ -161,54 +161,107 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-title">
-            <h2>Contact <span>Me</span></h2>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Dhaka, Bangladesh</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>tasinbinazam@gmail.com</p>
-                    <div class="contact-item">
-    <i class="fas fa-phone"></i>
-    <p>
-        <a href="tel:+8801861403911">+8801861403911</a>
-    </p>
-</div>
-                    <div class="contact-item">
-    <i class="fab fa-instagram"></i>
-    <p>
-        <a href="https://instagram.com/onlyfor_tasin" target="_blank">@onlyfor_tasin</a>
-    </p>
-</div>
-              <div class="contact-item">
-    <i class="fab fa-facebook"></i>
-    <p>
-        <a href="https://facebook.com/@zahid.binazam" target="_blank">Zahid Bin Azam</a>
-    </p>
-</div>      
-                </div>
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Dhaka, Bangladesh</p>
             </div>
-            <form id="contact-form" class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject" required>
-                <textarea placeholder="Feel free to share your thoughts or questions."rows="6" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>
+                    <a href="mailto:tasinbinazam@gmail.com">
+                        tasinbinazam@gmail.com
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>
+                    <a href="tel:+8801861403911">
+                        +8801861403911
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-instagram"></i>
+                <p>
+                    <a href="https://instagram.com/onlyfor_tasin" target="_blank">
+                        @onlyfor_tasin
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-facebook"></i>
+                <p>
+                    <a href="https://facebook.com/zahid.binazam" target="_blank">
+                        Facebook
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <p>
+                    <a href="https://github.com/zahidbinazam" target="_blank">
+                        GitHub
+                    </a>
+                </p>
+            </div>
+
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Zahid Bin Azam. All rights reserved.</p>
-    </footer>
+        <!-- Contact Form -->
 
-    <script src="script.js"></script>
-</body>
-</html>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden"
+                   name="access_key"
+                   value="eec1504f-020d-46c8-8721-00635887a847">
+
+            <input type="hidden"
+                   name="subject"
+                   value="New Message From Portfolio">
+
+            <input type="hidden"
+                   name="from_name"
+                   value="Tasin Portfolio">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
