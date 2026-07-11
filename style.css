@@ -424,3 +424,36 @@ footer {
     .nav-links.active { left: 0; }
     .nav-links a { margin: 1.5rem 0; font-size: 1.3rem; }
 }
+/* Hacker Style Hero */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.hero-title{
+    font-family:'Share Tech Mono', monospace;
+    font-size:60px;
+    font-weight:700;
+}
+
+.glow-text{
+    color:#00ffb3;
+    text-shadow:
+    0 0 8px #00ffb3,
+    0 0 18px #00ffb3,
+    0 0 35px #00ffb3;
+}
+
+.hello-text{
+    font-family:'Share Tech Mono', monospace;
+    color:white;
+    font-size:28px;
+}
+
+.subtitle{
+    font-family:'Share Tech Mono', monospace;
+    color:#bfbfbf;
+    font-size:28px;
+}
+
+.typing-text{
+    color:#00ffb3;
+}
