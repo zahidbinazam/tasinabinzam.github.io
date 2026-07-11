@@ -116,71 +116,56 @@ section {
     transition: all 0.3s ease-in-out;
     background: var(--text-color);
 }
-/* Hero Section */
+/* ================= HERO ================= */
 
 .hero{
     min-height:100vh;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    gap:5rem;
+    justify-content:space-between;
+    gap:60px;
 }
 
 .hero-content{
     flex:1;
 }
 
-.hero-content h3{
-    font-size:2rem;
-    font-weight:600;
-    color:#ffffff;
-    text-shadow:0 0 10px #00ffb3;
-}
-
-.hero-content h1{
-    font-size:4.5rem;
-    font-weight:700;
-    line-height:1.2;
-    margin:10px 0;
-    color:#fff;
-    text-shadow:0 0 20px #00ffb3;
-}
-
-.hero-content h2{
-    font-size:2rem;
-    margin-bottom:20px;
-}
-
-.hero-content h2 span{
-    color:#00ffb3;
-    text-shadow:0 0 15px #00ffb3;
-}
-
-.hero-content p{
-    max-width:600px;
-    line-height:1.8;
-    color:#bfbfbf;
-    margin-bottom:30px;
-}
-
 .hero-img{
     flex:1;
     display:flex;
     justify-content:center;
+    align-items:center;
 }
 
 .hero-img img{
-    width:350px;
-    height:350px;
+    width:320px;
+    height:320px;
     object-fit:cover;
     border-radius:50%;
-    border:5px solid #00ffb3;
-    box-shadow:
-        0 0 20px #00ffb3,
-        0 0 40px #00ffb3,
-        0 0 70px #00ffb3;
+    border:4px solid #00df9a;
+    box-shadow:0 0 30px rgba(0,223,154,.5);
 }
 
+.hello-text{
+    font-size:2rem;
+    color:#fff;
+    text-shadow:0 0 8px rgba(0,223,154,.5);
+}
+
+.hero-title{
+    font-size:4.5rem;
+    font-weight:700;
+}
+
+.glow-text{
+    color:#00df9a;
+    text-shadow:0 0 10px rgba(0,223,154,.6);
+}
+
+.subtitle{
+    font-size:2rem;
+    margin:15px 0;
+}
 
 /* About Section */
 .about {
