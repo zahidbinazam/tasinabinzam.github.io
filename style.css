@@ -499,9 +499,9 @@ form button:hover{
 
   .social-icons{
     display: flex;
-    justify-content: center;
     gap: 15px;
-    margin-bottom: 25px;
+    margin: 20px 0;
+}
 }
 }
     }
