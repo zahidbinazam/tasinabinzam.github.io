@@ -116,73 +116,71 @@ section {
     transition: all 0.3s ease-in-out;
     background: var(--text-color);
 }
-
 /* Hero Section */
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:5rem;
 }
 
-.hero-content h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
+.hero-content{
+    flex:1;
 }
 
-.hero-content h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 1.3;
-    margin: 0.3rem 0;
+.hero-content h3{
+    font-size:2rem;
+    font-weight:600;
+    color:#ffffff;
+    text-shadow:0 0 10px #00ffb3;
 }
 
-.hero-content h2 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+.hero-content h1{
+    font-size:4.5rem;
+    font-weight:700;
+    line-height:1.2;
+    margin:10px 0;
+    color:#fff;
+    text-shadow:0 0 20px #00ffb3;
 }
 
-.hero-content h2 span {
-    color: var(--main-color);
+.hero-content h2{
+    font-size:2rem;
+    margin-bottom:20px;
 }
 
-.hero-content p {
-    font-size: 1rem;
-    color: var(--muted-color);
-    max-width: 600px;
-    line-height: 1.6;
-    margin-bottom: 2rem;
+.hero-content h2 span{
+    color:#00ffb3;
+    text-shadow:0 0 15px #00ffb3;
 }
 
-.social-icons a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    background: transparent;
-    border: 2px solid var(--main-color);
-    border-radius: 50%;
-    font-size: 1.2rem;
-    color: var(--main-color);
-    margin: 0 1rem 2rem 0;
-    transition: 0.3s ease;
+.hero-content p{
+    max-width:600px;
+    line-height:1.8;
+    color:#bfbfbf;
+    margin-bottom:30px;
 }
 
-.social-icons a:hover {
-    background: var(--main-color);
-    color: var(--bg-color);
-    box-shadow: 0 0 10px var(--main-color);
+.hero-img{
+    flex:1;
+    display:flex;
+    justify-content:center;
 }
 
-.hero-img img {
-    width: 22vw;
-    border-radius: 50%;
-    border: 4px solid var(--main-color);
-    box-shadow: 0 0 20px var(--main-color);
-    object-fit: cover;
+.hero-img img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffb3;
+    box-shadow:
+        0 0 20px #00ffb3,
+        0 0 40px #00ffb3,
+        0 0 70px #00ffb3;
 }
+
 
 /* About Section */
 .about {
