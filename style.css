@@ -547,3 +547,17 @@ form button:hover{
         gap:15px;
     }
 }
+.footer{
+    text-align:center;
+    padding:30px 20px;
+    background:#111;
+    color:#fff;
+}
+
+.footer-quote{
+    margin-top:10px;
+    font-size:15px;
+    font-style:italic;
+    color:#bfbfbf;
+    opacity:0.8;
+}
