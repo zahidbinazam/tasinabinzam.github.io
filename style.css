@@ -449,3 +449,18 @@ form button:hover{
         0 0 80px #00ffb3;
     }
 }
+.story-quote{
+    display:block !important;
+    color:#00ffb3 !important;
+    font-size:28px !important;
+    font-weight:700 !important;
+    font-style:italic;
+    text-align:center;
+    margin:40px auto;
+    padding:20px;
+    text-shadow:
+        0 0 10px #00ffb3,
+        0 0 20px #00ffb3,
+        0 0 40px #00ffb3,
+        0 0 80px #00ffb3;
+}
