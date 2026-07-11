@@ -457,3 +457,36 @@ footer {
 .typing-text{
     color:#00ffb3;
 }
+/* My Story */
+
+.story{
+    padding:80px 10%;
+}
+
+.story-content{
+    max-width:850px;
+    margin:auto;
+}
+
+.story-content p{
+    color:#d9d9d9;
+    font-size:18px;
+    line-height:1.9;
+    text-align:center;
+    margin-bottom:30px;
+    font-family:Arial, sans-serif;
+}
+
+.story-quote{
+    text-align:center;
+    color:#00ffb3;
+    font-size:22px;
+    font-style:italic;
+    font-weight:600;
+    border-left:4px solid #00ffb3;
+    padding:18px;
+    margin:30px auto;
+    max-width:700px;
+    background:rgba(255,255,255,0.05);
+    border-radius:10px;
+}
