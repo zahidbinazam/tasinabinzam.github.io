@@ -604,3 +604,16 @@ form button:hover{
         border-color:transparent;
     }
 }
+.logo{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#fff;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#00df9a;
+    text-shadow:
+        0 0 8px rgba(0,223,154,.6),
+        0 0 15px rgba(0,223,154,.4);
+}
