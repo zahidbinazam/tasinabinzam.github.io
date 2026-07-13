@@ -565,3 +565,42 @@ form button:hover{
     color:#bfbfbf;
     opacity:0.8;
 }
+.typing-wrapper{
+    display:inline-block;
+    margin-top:15px;
+}
+
+.typing-text{
+    display:inline-block;
+    font-size:2rem;
+    color:#ffffff;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right:3px solid #00ff9d;
+    width:0;
+    animation:
+        typing 5s steps(60,end) forwards,
+        blinkCursor .8s infinite;
+}
+
+.highlight{
+    color:#00ff9d;
+    text-shadow:
+        0 0 8px #00ff9d,
+        0 0 15px #00ff9d;
+}
+
+@keyframes typing{
+    from{
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
+
+@keyframes blinkCursor{
+    50%{
+        border-color:transparent;
+    }
+}
